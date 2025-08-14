@@ -1,22 +1,6 @@
-// Bulma Base Themes
-@use "../../node_modules/bulma/sass/base";
-@use "../../node_modules/bulma/sass/themes";
+@use "../../node_modules/bulma/sass/utilities" with (
+  $primary: #ff6600,
+  $link: #0088cc
+);
 
-
-// bulma Elements
-@use "../../node_modules/bulma/sass/elements/button";
-
-
-// Bulma Components
-@use "../../node_modules/bulma/sass/components/navbar";
-
-
-
-//Post-Bulma SCSS
-@use './variables.scss';
-
-
-
-span {
-    font-weight: bold;
-}
+@forward "../../node_modules/bulma/bulma";
