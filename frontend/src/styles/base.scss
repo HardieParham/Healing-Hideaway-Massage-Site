@@ -1,6 +1,22 @@
-// Load Bulma's base styles and themes (including the minireset)
+// Bulma Base Themes
 @use "../../node_modules/bulma/sass/base";
 @use "../../node_modules/bulma/sass/themes";
 
-// Bulma Elements
+
+// bulma Elements
 @use "../../node_modules/bulma/sass/elements/button";
+
+
+// Bulma Components
+@use "../../node_modules/bulma/sass/components/navbar";
+
+
+
+//Post-Bulma SCSS
+@use './variables.scss';
+
+
+
+span {
+    font-weight: bold;
+}
