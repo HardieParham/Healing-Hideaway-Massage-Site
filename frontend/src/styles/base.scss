@@ -1,6 +1,11 @@
 @use "../../node_modules/bulma/sass/utilities" with (
-  $primary: #ff6600,
-  $link: #0088cc
+    $text: #000000,
+    $link: #77b5b6,
+    $primary: #6a408d,
+    $info: #d1cbe5,
+    $success: #378d94,
+    $warning: #9671bd,
+    // $danger: #0088cc,
 );
 
 @forward "../../node_modules/bulma/bulma";
