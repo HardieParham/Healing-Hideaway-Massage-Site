@@ -9,42 +9,8 @@
 
 );
 
+@forward "../../node_modules/bulma/bulma";
 
-
-// --- Base Imports ---
-@forward "../../node_modules/bulma/sass/base";
-@forward "../../node_modules/bulma/sass/themes";
-
-
-// --- Elements Imports ---
-@forward "../../node_modules/bulma/sass/elements/button";
-@forward "../../node_modules/bulma/sass/elements/content";
-@forward "../../node_modules/bulma/sass/elements/image";
-@forward "../../node_modules/bulma/sass/elements/title";
-
-
-// --- Components Imports ---
-@forward "../../node_modules/bulma/sass/components/dropdown";
-@use "../../node_modules/bulma/sass/components/navbar" with (
-  $navbar-height: 5rem
-);
-
-
-// --- Components Imports ---
-@forward "../../node_modules/bulma/sass/layout/container";
-@forward "../../node_modules/bulma/sass/layout/section";
-@forward "../../node_modules/bulma/sass/layout/footer";
-
-
-// --- Custom CSS ---
-.navbar-brand{
-    font-size: 1.75rem;
-}
-
-
-.brand-title {
-    font-weight: bold;
-}
 
 
 .emphasis {
