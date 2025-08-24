@@ -6,11 +6,13 @@
     $success: #378d94,
     $warning: #9671bd,
     // $danger: #0088cc,
-
 );
 
 @forward "../../node_modules/bulma/bulma";
 
+h3 {
+    text-decoration: underline;
+}
 
 
 .emphasis {
