@@ -15,8 +15,24 @@ h3 {
 }
 
 
+.top-icon {
+    color:white; 
+    width:32px; 
+    height:32px;
+}
+
 .emphasis {
     color: #378d94;
+}
+
+.columns.is-multiline {
+  align-items: stretch;   // ensures equal column height
+}
+
+.card {
+    width: 300px;
+    height: 100%;
+    background-color: #d1cbe5; 
 }
 
 
@@ -25,3 +41,4 @@ h3 {
         color: #9671bd;
     }
 }
+
