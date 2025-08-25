@@ -12,6 +12,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
     "bulma": "^1.0.4"
   }
 }
