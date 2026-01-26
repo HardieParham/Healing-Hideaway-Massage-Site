@@ -8,21 +8,9 @@
     <link rel="stylesheet" href="src/styles/base.min.css">
     <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/themes/splide-sea-green.min.css">
   </head>
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEBB9DCR5L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-BEBB9DCR5L');
-    </script>
-
-    
+   
   <body>
-    <section class="hero is-small is-primary">
+    <section class="hero is-small is-primary" id="navbar">
         <div class="hero-body">
             <div class="level">
                 <div class="level-left">
@@ -45,43 +33,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h1 class="title is-1">Our Mission</h1>
-            <h4 class="subtitle is-5">To improve lymphatic flow and muscle health to my clients.</h4>
-        
-            <p>Mary has 39 years of experiene as a licensed massage therapist. 18 years certified in manual lymphatic drainage, assisted lymphatic massage, advanced post-operative lymphatic massage, oncology massage, medical massage, and medical cupping.</p>
 
-            <p>Mary also holds degrees in Nursing and Exercise Science, MS Neurophycology, and a PhD in Neuroscience.</p>
-
-            <p>As a breast cancer survivor, she has become passionate about lyphatic and oncology massage. Mary also offers relaxation massage, and Myofascial massage.</p>
-
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="box">
-                <section class="splide" aria-label="Splide Basic HTML Example">
-                    <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/1.jpeg"></li>
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/2.png"></li>
-                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/3.jpeg"></li> -->
-                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/4.jpeg"></li> -->
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/5.jpeg"></li>
-                            </ul>
-                    </div>
-                    <div class="splide__progress">
-                        <div class="splide__progress__bar">
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
+    <section class="section" id="about">
         <div class="container" id="about">
             <div class="level">
                 <div class="level-left">
@@ -95,19 +48,30 @@
 
             <div class="content">
                 <h3>Experience:</h3>
-                <p>Massage Therapist for 39 years</p>
-                <p>Medical post-treatment for 18 years</p>
-
+                <p>Mary is a licensed massage therapist with 39 years of experience in therapeutic and medical massage. As a breast cancer survivor, she has become passionate about lymphatic and oncology massage.</p>
+                <br/>
+                <p>Her extensive clinical background allows her to work with clients managing post-surgical recovery, chronic conditions, and medically complex needs, while maintaining a high standard of safety and professional care.</p>
                 <br/>
 
                 <h3>Specializations:</h3>
-                <p>Oncology massages, lymphatic drainage</p>
-
+                <ul>
+                    <li>Manual Lymphatic Drainage</li>
+                    <li>Assisted Lymphatic Massages</li>
+                    <li>Advanced Post-Operative Lymphatic Therapy</li>
+                    <li>Oncology Massages</li>
+                    <li>Medical Massages</li>
+                    <li>Medical Cupping</li>
+                </ul>
                 <br/>
 
                 <h3>Certifications:</h3>
-                <p>Mary is certified with many certifications from various certification boards that specialize in certifications. This information is certified to be correct.</p>
+                <ul>
+                    <li>PhD. Neuroscience</li>
+                    <li>M.S. Neuropsychology</li>
+                    <li>B.S. Nursing and Exercise Science</li>
+                </ul>
 
+                <!--
                 <div class="columns is-multiline">
 
                     <div class="column is-6-tablet is-4-desktop">
@@ -174,19 +138,75 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+                -->
             </div>
 
         </div>
     </section>
 
 
+    <section class="section" id="carousel">
+        <div class="container">
+            <div class="box">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/1.jpeg"></li>
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/2.png"></li>
+                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/3.jpeg"></li> -->
+                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/4.jpeg"></li> -->
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/5.jpeg"></li>
+                            </ul>
+                    </div>
+                    <div class="splide__progress">
+                        <div class="splide__progress__bar">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="mission">
+        <div class="container">
+            <h1 class="title is-1">Our <span class="emphasis">Mission</span></h1>
+            <!--<h4 class="subtitle is-5">To improve lymphatic flow and muscle health to my clients.</h4>
+        
+            //<p>Mary has 39 years of experiene as a licensed massage therapist. 18 years certified in manual lymphatic drainage, assisted lymphatic massage, advanced post-operative lymphatic massage, oncology massage, medical massage, and medical cupping.</p>
+
+            //<p>Mary also holds degrees in Nursing and Exercise Science, MS Neurophycology, and a PhD in Neuroscience.</p>
+
+            //<p>As a breast cancer survivor, she has become passionate about lyphatic and oncology massage. Mary also offers relaxation massage, and Myofascial massage.</p> -->
+
+            <h4 class="subtitle is-5">Supporting lymphatic function, musculoskeletal health, and recovery through clinical manual therapy.</h4>
+            <p>Healing Hideaway Massage provides individualized therapeutic massage services with a focus on lymphatic health, post-operative recovery, oncology care, and medical bodywork. Our practice integrates decades of clinical experience with advanced education to support safe, effective, and outcome-focused treatment.</p>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
     <section class="section">
         <div class="container" id="pricing">
-            <h1 class="title is-1">Pricing</h1>
+            <h1 class="title is-1">Specialized <span class="emphasis">Services</span></h1>
             <h4 class="subtitle is-5">This is more info</h4>
+            <div class="content">
+
+                <h3>Certifications:</h3>
+                <ul>
+                    <li>PhD. Neuroscience</li>
+                    <li>M.S. Neuropsychology</li>
+                    <li>B.S. Nursing and Exercise Science</li>
+                </ul>
+                <br/>
+            </div>
+
         </div>
     </section>
 
