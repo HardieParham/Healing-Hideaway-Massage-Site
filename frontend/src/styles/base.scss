@@ -36,15 +36,13 @@ h3 {
     color: #378d94;
 }
 
-.columns.is-multiline {
-  align-items: stretch;   // ensures equal column height
-}
 
-.card {
-    width: 300px;
-    height: 100%;
-    background-color: #d1cbe5; 
-}
+.secondary-image {
+        margin: 0% 5%;
+        max-width: 600px;
+        height:auto;
+        border: 3px groove #6a408d;
+        }
 
 
 .footer {

@@ -8,21 +8,9 @@
     <link rel="stylesheet" href="src/styles/base.min.css">
     <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/themes/splide-sea-green.min.css">
   </head>
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEBB9DCR5L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-BEBB9DCR5L');
-    </script>
-
-    
+   
   <body>
-    <section class="hero is-small is-primary">
+    <section class="hero is-small is-primary" id="navbar">
         <div class="hero-body">
             <div class="level">
                 <div class="level-left">
@@ -32,7 +20,7 @@
                 </div>
                 <div class="level-right">
                     <div class="level-item">
-                        <a href="tel:+16159733809">
+                        <a href="tel:+16157147657">
                             <img src="icons/phone.png" class="top-icon">
                         </a>
                         <p class="top-icon"></p>
@@ -45,44 +33,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h1 class="title is-1">Our Mission</h1>
-            <h4 class="subtitle is-5">To improve lymphatic flow and muscle health to my clients.</h4>
-        
-            <p>Mary has 39 years of experiene as a licensed massage therapist. 18 years certified in manual lymphatic drainage, assisted lymphatic massage, advanced post-operative lymphatic massage, oncology massage, medical massage, and medical cupping.</p>
 
-            <p>Mary also holds degrees in Nursing and Exercise Science, MS Neurophycology, and a PhD in Neuroscience.</p>
-
-            <p>As a breast cancer survivor, she has become passionate about lyphatic and oncology massage. Mary also offers relaxation massage, and Myofascial massage.</p>
-
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="box">
-                <section class="splide" aria-label="Splide Basic HTML Example">
-                    <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/6.jpeg"></li>
-                                {# <li class="splide__slide"><img class="carousel-image" src="carousel/1.jpeg"></li> #}
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/2.png"></li>
-                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/3.jpeg"></li> -->
-                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/4.jpeg"></li> -->
-                                <li class="splide__slide"><img class="carousel-image" src="carousel/5.jpeg"></li>
-                            </ul>
-                    </div>
-                    <div class="splide__progress">
-                        <div class="splide__progress__bar">
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
+    <section class="section" id="about">
         <div class="container" id="about">
             <div class="level">
                 <div class="level-left">
@@ -96,19 +48,30 @@
 
             <div class="content">
                 <h3>Experience:</h3>
-                <p>Massage Therapist for 39 years</p>
-                <p>Medical post-treatment for 18 years</p>
-
+                <p>Mary is a licensed massage therapist with 39 years of experience in therapeutic and medical massage. As a breast cancer survivor, she has become passionate about lymphatic and oncology massage.</p>
+                <br/>
+                <p>Her extensive clinical background allows her to work with clients managing post-surgical recovery, chronic conditions, and medically complex needs, while maintaining a high standard of safety and professional care.</p>
                 <br/>
 
                 <h3>Specializations:</h3>
-                <p>Oncology massages, lymphatic drainage</p>
-
+                <ul>
+                    <li>Manual Lymphatic Drainage</li>
+                    <li>Assisted Lymphatic Massages</li>
+                    <li>Advanced Post-Operative Lymphatic Therapy</li>
+                    <li>Oncology Massages</li>
+                    <li>Medical Massages</li>
+                    <li>Medical Cupping</li>
+                </ul>
                 <br/>
 
                 <h3>Certifications:</h3>
-                <p>Mary is certified with many certifications from various certification boards that specialize in certifications. This information is certified to be correct.</p>
+                <ul>
+                    <li>PhD. Neuroscience</li>
+                    <li>M.S. Neuropsychology</li>
+                    <li>B.S. Nursing and Exercise Science</li>
+                </ul>
 
+                <!--
                 <div class="columns is-multiline">
 
                     <div class="column is-6-tablet is-4-desktop">
@@ -175,23 +138,108 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+                -->
+            </div>
+            <a href="mailto:healinghideawaymassage@gmail.com">
+                <button class="button is-large is-fullwidth is-rounded is-primary">Contact Now</button>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="section" id="carousel">
+        <div class="container">
+            <div class="box">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/1.jpeg"></li>
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/2.png"></li>
+                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/3.jpeg"></li> -->
+                                <!-- <li class="splide__slide"><img class="carousel-image" src="carousel/4.jpeg"></li> -->
+                                <li class="splide__slide"><img class="carousel-image" src="carousel/5.jpeg"></li>
+                            </ul>
+                    </div>
+                    <div class="splide__progress">
+                        <div class="splide__progress__bar">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="mission">
+        <div class="container">
+            <h1 class="title is-1">Our <span class="emphasis">Mission</span></h1>
+            <!--<h4 class="subtitle is-5">To improve lymphatic flow and muscle health to my clients.</h4>
+        
+            //<p>Mary has 39 years of experiene as a licensed massage therapist. 18 years certified in manual lymphatic drainage, assisted lymphatic massage, advanced post-operative lymphatic massage, oncology massage, medical massage, and medical cupping.</p>
+
+            //<p>Mary also holds degrees in Nursing and Exercise Science, MS Neurophycology, and a PhD in Neuroscience.</p>
+
+            //<p>As a breast cancer survivor, she has become passionate about lyphatic and oncology massage. Mary also offers relaxation massage, and Myofascial massage.</p> -->
+
+            <h4 class="subtitle is-5">Supporting lymphatic function, musculoskeletal health, and recovery through clinical manual therapy.</h4>
+            <p>Healing Hideaway Massage provides individualized therapeutic massage services with a focus on lymphatic health, post-operative recovery, oncology care, and medical bodywork. Our practice integrates decades of clinical experience with advanced education to support safe, effective, and outcome-focused treatment.</p>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="section" id="services">
+        <div class="container">
+            <h1 class="title is-1">Specialized <span class="emphasis">Services</span></h1>
+            <h4 class="subtitle is-5">Provided by Healing Hideaway Massage</h4>
+            <div class="content">
+
+                <h3>Lymphatic Therapy:</h3>
+                <ul>
+                    <li>Manual lymphatic drainage</li>
+                    <li>Post-operative lymphatic therapy</li>
+                    <li>Assisted lymphatic techniques</li>
+                </ul>
+                <br/>
+
+                <h3>Oncology Massage:</h3>
+                <ul>
+                    <li>Treatment considerations for cancer patients and survivors</li>
+                    <li>Lymphedema-related support</li>
+                    <li>Gentle, medically appropriate techniques</li>
+                </ul>
+                <br/>
+
+                <h3>Medical & Therapeutic Massage:</h3>
+                <ul>
+                    <li>Medical massage</li>
+                    <li>Post-surgical recovery</li>
+                    <li>Chronic pain management</li>
+                    <li>Edema and swelling management</li>
+                </ul>
+                <br/>
+
+                <h3>Other Medical Services:</h3>
+                <ul>
+                    <li>Medical cupping</li>
+                    <li>Myofascial release</li>
+                    <li>Supportive-care relaxation massage</li>
+                </ul>
+                <br/>
+
             </div>
 
         </div>
     </section>
 
 
-    <section class="section">
-        <div class="container" id="pricing">
-            <h1 class="title is-1">Pricing</h1>
-            <h4 class="subtitle is-5">This is more info</h4>
-        </div>
-    </section>
-
-
+    <!--
     <section class="section">
         <div class="container" id="ref">
             <h1 class="title is-1">Referrels</h1>
@@ -226,8 +274,9 @@
 
         </div>
     </section>
+    -->
 
-
+    <!--
     <section class="section">
         <div class="container" id="contact">
             <h1 class="title is-1">Contact</h1>
@@ -252,6 +301,51 @@
             </div>
         </div>
     </section>
+    -->
+
+
+    <section class="section" id="benefits">
+        <div class="container">
+            <h1 class="title is-1">Patient <span class="emphasis">Benefits</span></h1>
+            <h4 class="subtitle is-5">Why you should choose Healing Hideaway Massage</h4>
+            <div class="content">
+
+                <h3>Conditions Treated:</h3>
+                <ul>
+                    <li>Post-surgical swelling and recovery</li>
+                    <li>Lymphedema and lymphatic congestion</li>
+                    <li>Cancer-related treatment side effects</li>
+                    <li>Chronic pain and musculoskeletal dysfunction</li>
+                    <li>Scar tissue and fascial restrictions</li>
+                    <li>Edema and fluid retention</li>
+                </ul>
+                <br/>
+
+
+            <img class="secondary-image" src="benefits.jpeg" alt="A 5-point explination of thebenefits for Lymphatic Drainage Therapy."/>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h1 class="title is-1">Contact <span class="emphasis">Now</span></h1>
+            <h4 class="subtitle is-5">To schedule an appointment, please contact us directly</h4>
+            <div class="content">
+                <p>EMAIL: <a href="mailto:healinghideawaymassage@gmail.com">HealingHideawayMassage@gmail.com</a></p>
+                <p>PHONE: <a href="tel:+16157147657">(615) 714-7657</a></p>
+            </div>
+        </div> 
+    </section>
 
 
     <footer class="footer">
@@ -259,14 +353,16 @@
             <p>
             Website by <a href="https://www.cozymuggsoftware.com/" target="_blank">Cozymugg Software</a>.
             Icons via <a href="https://www.flaticon.com/" target="_blank">FlatIcon</a>.
-            &copy;Healing Hideaway Massage. All rights reserved.
+            &copy;2026 Healing Hideaway Massage. All rights reserved.
             </p>
-        </div>
+        </div> 
     </footer>
 
 
-  </body>
+    <script type="module" src="src/scripts/main.js"></script>
+    <script src="src/scripts/navbar.js"></script>
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
-  <script type="module" src="src/scripts/main.js"></script>
-  <script src="src/scripts/navbar.js"></script>
+</body>
 </html>
